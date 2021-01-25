@@ -1,0 +1,99 @@
+/*-Colors-*/
+:root{
+    --orange: #eb9d26;
+    --soft-orange: #e19251;
+    --brown: #a5593c;
+    --soft-pink: #d3b094;
+    --beige: #f4f2e7;
+    --white: #fff;
+    --text-color: #191919;
+    --back-col: #f6f2ef;
+    --font: 'Nanum Myenongja' serif;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth !important;
+    font-family: 'Nanum Myeongja' serif;
+    overflow-x: hidden;
+    background-color:var(--back-col)
+}
+.nav-menu{
+    background-color: var(--white);
+    height: 8rem;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+}
+
+.nav-menu ul{
+    float: left;
+    list-style: none;
+    padding-left:3rem
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    margin-top: 2.8rem;
+    margin-left: 1rem;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-align: left;
+    transition: .5s ease;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: var(--orange);
+  
+}
+
+.social-media{
+    display: block;
+    float: right;
+    list-style: none;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    padding-right: 5rem;
+    padding-left: 2rem;
+
+}
+.fa{
+    color: black;
+    transition: .5s ease;
+    margin-left: 1rem;
+    
+}
+
+.fa:hover{
+    color: var(--orange);
+}
+
+
+h2{
+    font-size: 34px;
+    line-height:37px;
+    font-weight: 300;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    position: relative;
+}
+
+.card a:hover{
+    opacity: 0.5;
+    transition: .5s ease-in-out;
+}
